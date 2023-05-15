@@ -637,19 +637,23 @@
             </svg>
           </div>
 
-          <label class="modal-form-field valid-field" for="modal_phone" data-form-field
-            >Phone</label
-          >
+          <label class="modal-form-field" for="modal_phone">Phone</label>
           <div class="modal-form-wrapper">
             <input
-              class="modal-form-input"
+              class="modal-form-input valid-field invalid-field"
               type="tel"
               name="modal_phone"
               id="modal_phone"
               required
               placeholder="&nbsp;"
+              data-form-field
             />
-            <svg class="modal-form-icon valid-phone" width="18" height="24" data-form-icon>
+            <svg
+              class="modal-form-icon valid-phone invalid-phone"
+              width="18"
+              height="24"
+              data-form-icon
+            >
               <use href="./images/icons.svg#modal-phone"></use>
             </svg>
           </div>

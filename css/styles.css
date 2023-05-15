@@ -1668,3 +1668,43 @@ body {
 .valid-phone {}
 
 .valid-field {}
+
+.invalid-phone {
+    fill: red;
+}
+
+.invalid-field {
+    border-color: red;
+}
+
+/* .modal-form-input:not(:placeholder-shown):required:valid.valid-field {
+    border-color: green;
+}
+
+.modal-form-input:not(:placeholder-shown):required:invalid.invalid-field {
+    border-color: red;
+}
+
+.modal-form-input:not(:placeholder-shown):required:valid.valid-field+.modal-form-icon {
+    fill: green;
+}
+
+.modal-form-input:not(:placeholder-shown):required:invalid.invalid-field+.modal-form-icon {
+    fill: red;
+} */
+
+.modal-form-input:not(:placeholder-shown):required:valid.valid-field {
+    border-color: green;
+}
+
+.modal-form-input:not(:placeholder-shown):required.invalid-field {
+    border-color: red;
+}
+
+.modal-form-input:not(:placeholder-shown):required:valid.valid-field+.modal-form-icon {
+    fill: green;
+}
+
+.modal-form-input:not(:placeholder-shown):required.invalid-field+.modal-form-icon {
+    fill: red;
+}
